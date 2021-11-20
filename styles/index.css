@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+nav{
+    background-color: rgb(52, 58, 64);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#nav-2{
+    display: flex;
+    gap: 15px;
+    color: rgb(149, 149, 149)
+}
+
+
+
+/*PARTE CENTRAL DE LA PÁGINA*/
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+/*INFO DE LA PERSONA*/
+#conte-person div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conte-person div:nth-child(1) img{
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+}
+
+#conte-person div:nth-child(1) button{
+    background-color: rgb(62, 64, 52);
+    border: none;
+}
+
+/*INFO DE LA PERSONA VACUNAS*/
+#conte-person div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#btn1{
+    background-color: rgb(51,201,201);
+    border: 1px solid rgb(42, 165, 165);
+}
+
+#btn2{
+    background-color: rgb(51,151,201);
+    border: 1px solid rgb(45, 149, 163)
+}
+
+#btn3{
+    background-color: rgb(51,101,201);
+    border: 1px solid rgb(41, 82, 163);
+}
+
+#btn4{
+    background-color: rgb(51,51,201);
+    border: 1px solid rgb(45, 45, 177);
+}
+
+/*ESTILOS GENERICAS*/
+.btn{
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 6px;
+}
+
+.input{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(170, 170, 170);
+    font-size: 0.9rem;
+}
+
+/*CONTENEDOR DEL FORMULARIO*/
+
+#conte-form > form{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+#conte-form > form > fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+#conte-form > form > fieldset > legend{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#conte-form > form > button{
+    background-color: rgb(153, 0, 185);
+    border: none;
+}
+
+#inputFile{
+    display: grid;
+    grid-template-columns: 85% 15%;
+
+}
+
+#inputFile > button{
+    padding: 8px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+#inputFile > input{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/*CONTENEDOR DE LAS GRAFICAS*/
+
+.grafica{
+    height: 150px;
+    background-color: rgb(153, 153, 153);
+}

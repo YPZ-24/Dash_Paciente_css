@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    
+    <nav>
+        <div>
+            <h3>Nombre Paciente</h3>
+        </div>
+        <div id="nav-2">
+            <p>Buscar Doctor</p>
+            <p>Salir</p>
+        </div>
+    </nav>
+    <main>
+        <div id="conte-person">
+            <div>
+                <img src="https://i.pinimg.com/originals/fd/3d/f0/fd3df03b2ca799e71ea0e7f10544964a.jpg" alt="">
+                <p>Maria Fernanda Olvera Martinez</p>
+                <p>24/OCT/2007</p>
+                <p>Mexicana</p>
+                <p>Soltera</p>
+                <p>Estudiante</p>
+                <p>Femenino</p>
+                <p>45 Kg</p>
+                <button class="btn">Actualizar</button>
+            </div>
+            <div>
+                <h2>Vacunas</h2>
+                <button id="btn1" class="btn">Vacuna 1</button>
+                <button id="btn2" class="btn">Vacuna 2</button>
+                <button id="btn3" class="btn">Vacuna 3</button>
+                <button id="btn4" class="btn">Vacuna 4</button>
+            </div>
+        </div>
+        <div id="conte-form">
+            <form action="">
+                <fieldset>
+                    <legend>General</legend>
+                    <label for="inEmail">Email</label>
+                    <input class="input" id="inEmail" type="email" placeholder="example@gmail.com" >
+                    <label for="inPassword">Contraseña</label>
+                    <input class="input" id="inPassword" type="password" placeholder="2k8ndl" >
+                    <label for="inFile">Imagen Perfil</label>
+                    <div id="inputFile">
+                        <input class="input" id="inFile" type="Elegir Archivo" placeholder="Elegir Archivo" >
+                        <button>Browse</button>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Paciente</legend>
+                    <label for="inName">Nombre</label>
+                    <input class="input" id="inName" type="text" placeholder="Maria Fernanda Olvera Martinez" >
+                    <label for="inOccupation">Ocupación</label>
+                    <input class="input" id="inOccupation" type="text" placeholder="Estudiante" >
+                </fieldset>
+                <button class="btn">Modificar</button>
+            </form>
+        </div>
+        <div id="conte-graph">
+            <div>
+                <h2>Frecuencia Cardiaca</h2>
+                <div class="grafica"></div>
+            </div>
+            <div>
+                <h2>Frecuencia Respiratoria</h2>
+                <div class="grafica"></div>
+            </div>
+            <div>
+                <h2>Precion Arterial</h2>
+                <div class="grafica"></div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
